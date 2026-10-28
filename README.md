@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FixForge AI
 
 A beginner-friendly debugging assistant. Paste Python code and an error message, and FixForge AI:
@@ -31,3 +32,7 @@ Open the URL Streamlit prints (usually http://localhost:8501).
 - **Reasoning models:** Nemotron models can spend tokens on reasoning. If you see "empty answer" errors, raise `max_tokens` in `llm.py` or try a non-reasoning model via `NEBIUS_MODEL`.
 - **Code execution is not a security sandbox:** generated code runs on your machine in a temp folder with a 15-second timeout. That's fine for a local demo. For a public deployment, run each test job in a container with no network access.
 - **Python only:** explanations work for any language, but the test runner only runs Python.
+=======
+# FixForgeAI
+FixForge AI is an AI-powered debugging assistant designed to help developers identify, understand, and fix coding errors.
+>>>>>>> 63eb80ed68b4ac85d61b1102d08b02ae5d567049
